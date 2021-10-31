@@ -12477,6 +12477,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3.5
   controller: {fileID: 959094988}
+  carbody: {fileID: 959094986}
 --- !u!1 &966170215
 GameObject:
   m_ObjectHideFlags: 0
