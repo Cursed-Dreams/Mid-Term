@@ -3838,7 +3838,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 10
-      m_TileSpriteIndex: 10
+      m_TileSpriteIndex: 13
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -4018,7 +4018,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 3
-      m_TileSpriteIndex: 6
+      m_TileSpriteIndex: 12
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -11689,22 +11689,22 @@ Tilemap:
     m_Data: {fileID: -3122655099883117741, guid: cdc120eb4b517f243b7d22eb20f11a77, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: -3818507049497757611, guid: cdc120eb4b517f243b7d22eb20f11a77, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 3587139453422238902, guid: cdc120eb4b517f243b7d22eb20f11a77, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 768
     m_Data: {fileID: -928263277331541719, guid: cdc120eb4b517f243b7d22eb20f11a77, type: 3}
   - m_RefCount: 347
     m_Data: {fileID: 1016074792388991499, guid: cdc120eb4b517f243b7d22eb20f11a77, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: 169826702785509090, guid: cdc120eb4b517f243b7d22eb20f11a77, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 3587139453422238902, guid: cdc120eb4b517f243b7d22eb20f11a77, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -4486400200236260253, guid: cdc120eb4b517f243b7d22eb20f11a77, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 5039741971190919691, guid: cdc120eb4b517f243b7d22eb20f11a77, type: 3}
   m_TileMatrixArray:
@@ -12360,7 +12360,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: 3.22, y: 15.2, z: 6.256691}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
-  m_Children: []
+  m_Children:
+  - {fileID: 1470137549}
   m_Father: {fileID: 1628309564}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
@@ -12565,7 +12566,7 @@ Transform:
   - {fileID: 455744997}
   - {fileID: 2126550948}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1066384715
 GameObject:
@@ -12741,7 +12742,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -26875,7 +26876,7 @@ Transform:
   - {fileID: 1389046504}
   - {fileID: 1539522008}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1470137546
 GameObject:
@@ -26930,7 +26931,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 14
+  orthographic size: 3
   m_Depth: 5
   m_CullingMask:
     serializedVersion: 2
@@ -26953,13 +26954,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1470137546}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 120, y: 92.7, z: -22}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -38.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 959094986}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!1 &1539522007
 GameObject:
   m_ObjectHideFlags: 0
@@ -30031,7 +30032,7 @@ Transform:
   m_Children:
   - {fileID: 959094986}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1758377140
 GameObject:
@@ -30097,7 +30098,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1899176664
 GameObject:
